@@ -1,0 +1,10 @@
+{
+  "name": "pokemon-battle",
+  "version": "0.1.0",
+  "private": true,
+  "description": "第一世代 6v6 寶可夢線上對戰（單一服務）",
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build && npm --prefix server install",
+    "start": "npm --prefix server start"
+  }
+}
