@@ -2,7 +2,7 @@
 
 第一世代（151 隻）· 6v6 · 即時線上對戰，回合制。
 
-完整規格見 [SPEC.md](./SPEC.md)。
+系統架構見 [ARCHITECTURE.md](./ARCHITECTURE.md)，完整規格見 [SPEC.md](./SPEC.md)。
 
 ## 技術架構
 
