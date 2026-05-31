@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.log
+# 注意：src/data/cache/gen1.json 刻意納入版控，
+# 讓雲端/tunnel 啟動可直接讀快取，免去每次重抓 PokéAPI

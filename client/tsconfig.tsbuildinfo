@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/socket.ts","./src/sound.ts","./src/types.ts","./src/vite-env.d.ts","./src/components/battle.tsx","./src/components/home.tsx","./src/components/result.tsx","./src/components/teambuilder.tsx","./src/components/common.tsx"],"version":"5.9.3"}

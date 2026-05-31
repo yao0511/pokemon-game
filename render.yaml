@@ -1,0 +1,13 @@
+# Render.com 部署設定（單一服務：後端同時提供前端靜態檔 + API + WebSocket）
+services:
+  - type: web
+    name: pokemon-battle
+    runtime: node
+    plan: free
+    # 安裝兩邊依賴並 build 前端，後端用 tsx 直接執行
+    buildCommand: npm --prefix client install && npm --prefix client run build && npm --prefix server install
+    startCommand: npm --prefix server start
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 3001

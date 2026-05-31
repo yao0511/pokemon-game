@@ -1,0 +1,16 @@
+# 依賴與建置產物
+**/node_modules/
+**/dist/
+**/.vite/
+
+# 日誌
+*.log
+
+# 系統 / 編輯器
+.DS_Store
+
+# 環境變數（保留 .env.example）
+**/.env
+**/.env.local
+
+# 注意：server/src/data/cache/gen1.json 刻意保留於版控

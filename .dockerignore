@@ -1,0 +1,7 @@
+**/node_modules
+**/dist
+**/.vite
+*.log
+.git
+.DS_Store
+# 保留 server/src/data/cache（免重抓 PokéAPI）
