@@ -7,7 +7,5 @@ services:
     # 安裝兩邊依賴並 build 前端，後端用 tsx 直接執行
     buildCommand: npm --prefix client install && npm --prefix client run build && npm --prefix server install
     startCommand: npm --prefix server start
+    # Render 會自動注入 PORT 環境變數，後端會讀取它（本機才 fallback 3001）
     healthCheckPath: /api/health
-    envVars:
-      - key: PORT
-        value: 3001
